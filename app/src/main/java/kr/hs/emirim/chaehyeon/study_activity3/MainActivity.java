@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //1.context: 화면 제어권자
         //2.layout: 리스트뷰 항목 하나의 디자인
         //3.참조파일: 리스틉에서 보여줄 스트링 배열
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, arr);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_checked, arr);
         //생성된 어댑터를 listView에 세팅
         list.setAdapter(adapter);
 
